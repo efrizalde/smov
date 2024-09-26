@@ -224,7 +224,7 @@ export function SettingsPage() {
     setEnableThumbnails(state.enableThumbnails.state);
     setEnableAutoplay(state.enableAutoplay.state);
     setSourceOrder(state.sourceOrder.state);
-    setAppLanguage(state.appLanguage.state);
+    // setAppLanguage(state.appLanguage.state);
     setTheme(state.theme.state);
     setSubStyling(state.subtitleStyling.state);
     setProxySet(state.proxyUrls.state?.filter((v) => v !== "") ?? null);
@@ -251,7 +251,7 @@ export function SettingsPage() {
     state,
     setEnableAutoplay,
     setSourceOrder,
-    setAppLanguage,
+    // setAppLanguage,
     setTheme,
     setSubStyling,
     setProxySet,
