@@ -264,7 +264,7 @@ export function SettingsPage() {
     <SubPageLayout>
       <PageTitle subpage k="global.pages.settings" />
       <SettingsLayout>
-        <div id="settings-account">
+        {/* <div id="settings-account">
           <Heading1 border className="!mb-0">
             {t("settings.account.title")}
           </Heading1>
@@ -292,7 +292,7 @@ export function SettingsPage() {
         </div>
         <div className="mt-10">
           <AdminPanelPart />
-        </div>
+        </div> */}
         <div id="settings-preferences" className="mt-48">
           <PreferencesPart
             language={state.appLanguage.state}
@@ -318,14 +318,14 @@ export function SettingsPage() {
             setStyling={state.subtitleStyling.set}
           />
         </div>
-        <div id="settings-connection" className="mt-48">
+        {/* <div id="settings-connection" className="mt-48">
           <ConnectionsPart
             backendUrl={state.backendUrl.state}
             setBackendUrl={state.backendUrl.set}
             proxyUrls={state.proxyUrls.state}
             setProxyUrls={state.proxyUrls.set}
           />
-        </div>
+        </div> */}
       </SettingsLayout>
       <Transition
         animation="fade"

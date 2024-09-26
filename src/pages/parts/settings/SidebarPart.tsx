@@ -38,11 +38,11 @@ export function SidebarPart() {
   const [activeLink, setActiveLink] = useState("");
 
   const settingLinks = [
-    {
-      textKey: "settings.account.title",
-      id: "settings-account",
-      icon: Icons.USER,
-    },
+    // {
+    //   textKey: "settings.account.title",
+    //   id: "settings-account",
+    //   icon: Icons.USER,
+    // },
     {
       textKey: "settings.preferences.title",
       id: "settings-preferences",
@@ -58,11 +58,11 @@ export function SidebarPart() {
       id: "settings-captions",
       icon: Icons.CAPTIONS,
     },
-    {
-      textKey: "settings.connections.title",
-      id: "settings-connection",
-      icon: Icons.LINK,
-    },
+    // {
+    //   textKey: "settings.connections.title",
+    //   id: "settings-connection",
+    //   icon: Icons.LINK,
+    // },
   ];
 
   const backendUrl = useBackendUrl();

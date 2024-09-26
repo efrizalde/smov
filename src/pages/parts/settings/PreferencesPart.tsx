@@ -54,7 +54,7 @@ export function PreferencesPart(props: {
   return (
     <div className="space-y-12">
       <Heading1 border>{t("settings.preferences.title")}</Heading1>
-      <div>
+      {/* <div>
         <p className="text-white font-bold mb-3">
           {t("settings.preferences.language")}
         </p>
@@ -66,7 +66,7 @@ export function PreferencesPart(props: {
           selectedItem={selected || options[0]}
           setSelectedItem={(opt) => props.setLanguage(opt.id)}
         />
-      </div>
+      </div> */}
 
       <div>
         <p className="text-white font-bold mb-3">
