@@ -110,7 +110,7 @@ export function SettingsPage() {
   const setPreviewTheme = usePreviewThemeStore((s) => s.setPreviewTheme);
 
   const appLanguage = useLanguageStore((s) => s.language);
-  const setAppLanguage = useLanguageStore((s) => s.setLanguage);
+  // const setAppLanguage = useLanguageStore((s) => s.setLanguage);
 
   const subStyling = useSubtitleStore((s) => s.styling);
   const setSubStyling = useSubtitleStore((s) => s.updateStyling);
@@ -296,7 +296,7 @@ export function SettingsPage() {
         <div id="settings-preferences" className="mt-48">
           <PreferencesPart
             language={state.appLanguage.state}
-            setLanguage={state.appLanguage.set}
+            // setLanguage={state.appLanguage.set}
             enableThumbnails={state.enableThumbnails.state}
             setEnableThumbnails={state.enableThumbnails.set}
             enableAutoplay={state.enableAutoplay.state}

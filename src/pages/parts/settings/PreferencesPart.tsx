@@ -15,7 +15,7 @@ import { getLocaleInfo, sortLangCodes } from "@/utils/language";
 
 export function PreferencesPart(props: {
   language: string;
-  setLanguage: (l: string) => void;
+  // setLanguage: (l: string) => void;
   enableThumbnails: boolean;
   setEnableThumbnails: (v: boolean) => void;
   enableAutoplay: boolean;
